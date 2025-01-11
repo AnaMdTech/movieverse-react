@@ -1,0 +1,12 @@
+@use "base/reset";
+@use "base/typography";
+
+@use "components/search-bar";
+@use "components/movie-card";
+
+@use "layout/header";
+
+@use "pages/app";
+
+@use "utils/mixins";
+@use "utils/variables";

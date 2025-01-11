@@ -1,0 +1,10 @@
+@mixin box-shadow($light, $dark) {
+  box-shadow: 5px 5px 7px $dark, -5px -5px 7px $light;
+}
+
+@mixin gradient-text($start, $end) {
+  background: linear-gradient(90deg, $start 0%, $end 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
